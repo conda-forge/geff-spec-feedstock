@@ -1,6 +1,6 @@
 context:
   name: geff-spec
-  version: "1.2.0"
+  version: "1.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/geff_spec-${{ version }}.tar.gz
-  sha256: 962d0f3e493c302e8a834e20c9f7f0efdeede845d2a37caab792a41c6f56fac0
+  sha256: d4fc5de3759eff8b9ff888269b655f1cc6160eda859ff74f35354cee34180c66
 
 build:
   noarch: python
